@@ -76,6 +76,10 @@ img {
 	margin-top: 16px;
 	font-size: 16px;
 	color: #ff3469;
+	transition: 0.2s ease-in;
+}
+.callback:hover {
+	filter: brightness(0.7);
 }
 .hero {
 	padding-top: 100px;
@@ -133,10 +137,12 @@ img {
 .swiper-button-prev:after,
 .swiper-container-rtl .swiper-button-next:after {
 	padding: 10px;
+	transition: 0.2s ease-in;
 }
 .swiper-button-next:after,
 .swiper-container-rtl .swiper-button-prev:after {
 	padding: 10px;
+	transition: 0.2s ease-in;
 }
 .swiper-button-prev:hover {
 	color: #ff2e55;
@@ -161,6 +167,11 @@ img {
 	color: #fff;
 	cursor: pointer;
 	border: none;
+	transition: 0.2s ease-in;
+}
+.button:hover,
+.button:focus {
+	filter: brightness(0.8);
 }
 .reviews {
 	padding: 100px 0 50px;
@@ -217,6 +228,10 @@ img {
 }
 .review-link {
 	color: #f24841;
+	transition: 0.2s ease-in;
+}
+.review-link:hover {
+	filter: brightness(0.7);
 }
 .advantages {
 	text-align: center;
@@ -316,11 +331,14 @@ img {
 }
 .more {
 	display: block;
+	text-align: center;
 	font-size: 14px;
 	color: #f24841;
-	text-align: center;
 	padding: 10px;
 	margin-top: 40px;
+}
+.more:hover {
+	filter: brightness(0.7);
 }
 .more::after {
 	display: inline-block;
@@ -330,6 +348,9 @@ img {
 	background: url("../img/caret.svg") no-repeat center;
 	margin-left: 15px;
 	vertical-align: middle;
+}
+.more::after:hover {
+	filter: brightness(0.7);
 }
 .offer {
 	padding-top: 100px;
@@ -343,6 +364,10 @@ img {
 	display: block;
 	font-size: 30px;
 	margin-bottom: 65px;
+	transition: 0.2s ease-in;
+}
+.offer-link:hover {
+	color: #ff3469;
 }
 .offer-label {
 	display: block;
@@ -353,6 +378,10 @@ img {
 	font-size: 36px;
 	text-decoration: none;
 	color: #fff;
+	transition: 0.2s ease-in;
+}
+.offer-phone:hover {
+	color: #ff3469;
 }
 .footer-menu {
 	padding: 0;
@@ -367,6 +396,10 @@ img {
 	font-size: 18px;
 	text-transform: uppercase;
 	color: #fff;
+	transition: 0.2s ease-in;
+}
+.footer-menu-link:hover {
+	color: #ff3469;
 }
 .social {
 	font-size: 16px;
@@ -389,6 +422,10 @@ img {
 	font-size: 24px;
 	text-decoration: none;
 	color: #fff;
+	transition: 0.2s;
+}
+.footer-phone:hover {
+	color: #ff3469;
 }
 .footer-bottom {
 	padding: 60px 0 50px;
@@ -396,8 +433,15 @@ img {
 }
 .footer-description,
 .footer-text,
-.developer {
+.footer-link {
+	transition: 0.2s ease-in;
 	color: #000;
+}
+.footer-right {
+	text-align: right;
+}
+.footer-link:hover {
+	color: #ff3469;
 }
 .modal {
 	display: none;
@@ -422,6 +466,9 @@ img {
 	.header-contacts {
 		text-align: center;
 	}
+	.header::after {
+		display: none;
+	}
 	.hero {
 		padding-top: 50px;
 	}
@@ -434,6 +481,10 @@ img {
 		font-size: 16px;
 		line-height: 1.6;
 	}
+	.hero::before,
+	.hero::after {
+		display: none;
+	}
 	.button {
 		padding: 20px 40px;
 	}
@@ -443,6 +494,9 @@ img {
 	.offer {
 		padding-top: 30px;
 		padding-bottom: 30px;
+	}
+	.review-image {
+		margin-right: 0;
 	}
 	.colors {
 		max-width: 200px;
@@ -469,9 +523,6 @@ img {
 	.offer,
 	.offer-title {
 		text-align: left;
-	}
-	.review-image {
-		margin-right: 0;
 	}
 	.footer-bottom {
 		padding: 30px 0;

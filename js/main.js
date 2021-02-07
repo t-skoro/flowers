@@ -26,7 +26,7 @@ $(document).ready(function () {
     breakpoints: {
       // when window width is >= 320px
       320: {
-        slidesPerView: 2,
+        slidesPerView: 1,
         // spaceBetween: 20
       },
       // when window width is >= 480px
@@ -74,21 +74,21 @@ $(document).ready(function () {
     {
       src  : './img/reviews/review-1.jpg',
       opts : {
-        caption : 'First caption',
+        caption : 'Букет невесты',
         thumb   : './img/reviews/review-1.jpg'
       }
     },
     {
       src  : './img/reviews/review-2.jpg',
       opts : {
-        caption : 'Second caption',
+        caption : 'Букет "Весна"',
         thumb   : './img/reviews/review-2.jpg'
       }
     },
     {
       src  : './img/reviews/review-3.jpg',
       opts : {
-        caption : 'Second caption',
+        caption : 'Букет на День Учителя',
         thumb   : './img/reviews/review-3.jpg'
       }
     }
@@ -108,21 +108,21 @@ $("#review-2").on('click', function() {
     {
       src  : './img/reviews/review-2.jpg',
       opts : {
-        caption : 'First caption',
+        caption : 'Букет "Весна"',
         thumb   : './img/reviews/review-2.jpg'
       }
     },
     {
       src  : './img/reviews/review-3.jpg',
       opts : {
-        caption : 'Second caption',
+        caption : 'Букет на День Учителя',
         thumb   : './img/reviews/review-3.jpg'
       }
     },
     {
       src  : './img/reviews/review-1.jpg',
       opts : {
-        caption : 'Second caption',
+        caption : 'Букет невесты',
         thumb   : './img/reviews/review-1.jpg'
       }
     }
@@ -140,21 +140,21 @@ $("#review-3").on('click', function() {
     {
       src  : './img/reviews/review-3.jpg',
       opts : {
-        caption : 'First caption',
+        caption : 'Букет на День Учителя',
         thumb   : './img/reviews/review-3.jpg'
       }
     },
     {
       src  : './img/reviews/review-1.jpg',
       opts : {
-        caption : 'Second caption',
+        caption : 'Букет невесты',
         thumb   : './img/reviews/review-1.jpg'
       }
     },
     {
       src  : './img/reviews/review-2.jpg',
       opts : {
-        caption : 'Second caption',
+        caption : 'Букет "Весна"',
         thumb   : './img/reviews/review-2.jpg'
       }
     }
