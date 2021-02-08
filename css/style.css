@@ -185,6 +185,7 @@ img {
 	font-size: 30px;
 	letter-spacing: 0.3px;
 	text-transform: uppercase;
+	line-height: 1.4;
 }
 .reviews-slider {
 	margin-top: 98px;
@@ -275,6 +276,7 @@ img {
 	margin-top: 23px;
 	margin-bottom: 20px;
 	text-transform: uppercase;
+	font-size: 13px;
 }
 .card-label {
 	display: block;
@@ -522,7 +524,7 @@ img {
 	}
 	.offer-link {
 		font-size: 20px;
-		line-height: 1.5;
+		line-height: 1.4;
 	}
 	.offer-phone {
 		font-size: 26px;
