@@ -35,6 +35,10 @@ img {
 	vertical-align: middle;
 	height: auto;
 }
+.container {
+	padding-left: 75px;
+	padding-right: 75px;
+}
 .header {
 	padding-top: 50px;
 }
@@ -262,10 +266,10 @@ img {
 	text-align: center;
 }
 .card {
+	padding: 33px 35px 30px 35px;
 	margin-top: 27px;
 	text-align: center;
 	border: 3px solid #fff;
-	padding: 33px 35px 30px 35px;
 }
 .card-title {
 	margin-top: 23px;
@@ -406,7 +410,13 @@ img {
 }
 .social-link {
 	padding: 10px;
-	margin-left: 8px;
+	vertical-align: middle;
+}
+.social-link path {
+	transition: 0.2s ease-in;
+}
+.social-link:hover path {
+	fill: #ff3469;
 }
 .footer-info {
 	text-align: right;
@@ -460,6 +470,10 @@ img {
 }
 
 @media (max-width: 768px) {
+	.container {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
 	.header {
 		text-align: center;
 	}
@@ -495,9 +509,6 @@ img {
 		padding-top: 30px;
 		padding-bottom: 30px;
 	}
-	.review-image {
-		margin-right: 0;
-	}
 	.colors {
 		max-width: 200px;
 		margin: auto;
@@ -515,8 +526,14 @@ img {
 	.offer-phone {
 		font-size: 26px;
 	}
-	.footer-info {
+	.footer-info,
+	.footer-right {
 		text-align: left;
+	}
+}
+@media (max-width: 767px) {
+	.review-image {
+		margin-right: 0;
 	}
 }
 @media (max-width: 576px) {
