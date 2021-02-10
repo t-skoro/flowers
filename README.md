@@ -1,2 +1,2 @@
 # Flowers
-Проект от Glo Academy
+Проект от Glo-Academy
