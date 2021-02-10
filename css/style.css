@@ -358,6 +358,31 @@ img {
 .more::after:hover {
 	filter: brightness(0.7);
 }
+.show-more {
+	display: none;
+}
+.more-end {
+	display: block;
+	display: none;
+	text-align: center;
+	font-size: 14px;
+	color: #f24841;
+	padding: 10px;
+	margin-top: 40px;
+}
+.more-end:hover {
+	filter: brightness(0.7);
+}
+.more-end::after {
+	display: inline-block;
+	content: "";
+	width: 10px;
+	height: 10px;
+	background: url("../img/caret.svg") no-repeat center;
+	margin-left: 15px;
+	vertical-align: middle;
+	transform: rotate(180deg);
+}
 .offer {
 	padding-top: 100px;
 	padding-bottom: 100px;
@@ -457,6 +482,8 @@ img {
 }
 .modal {
 	display: none;
+	background-color: #ffd7e2;
+	color: #292929;
 }
 .modal-title {
 	color: #292929;

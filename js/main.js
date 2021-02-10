@@ -4,7 +4,6 @@ $(document).ready(function () {
     // Параметры слайдера
     loop: true,
     slidesPerView: 6,
-
     // If we need pagination
   //   pagination: {
   //     el: '.swiper-pagination',
@@ -16,7 +15,6 @@ $(document).ready(function () {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
-
     // And if we need scrollbar
   //   scrollbar: {
   //     el: '.swiper-scrollbar',
@@ -42,13 +40,11 @@ $(document).ready(function () {
     }
   });
 
-
   const reviewsSlider = new Swiper('.reviews-slider', {
     // Optional parameters
     // Параметры слайдера
     loop: true,
     slidesPerView: 1,
-
     // If we need pagination
   //   pagination: {
   //     el: '.swiper-pagination',
@@ -60,13 +56,11 @@ $(document).ready(function () {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
-
     // And if we need scrollbar
   //   scrollbar: {
   //     el: '.swiper-scrollbar',
   //   },
   });
-
 
   $("#review-1").on('click', function() {
 
@@ -98,9 +92,7 @@ $(document).ready(function () {
       autoStart : true
     }
   });
-
 });
-
 
 $("#review-2").on('click', function() {
 
@@ -132,8 +124,8 @@ $("#review-2").on('click', function() {
       autoStart : true
     }
   });
-
 });
+
 $("#review-3").on('click', function() {
 
   $.fancybox.open([
@@ -164,7 +156,12 @@ $("#review-3").on('click', function() {
       autoStart : true
     }
   });
-
 });
+
+// Показать ещё
+// $('.more').click(function() {
+//   $('show-more').fadeIn();
+//   $(this).fadeOut();
+// });
 
 });
