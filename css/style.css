@@ -1,21 +1,21 @@
 @font-face {
-	font-family: "Gotham Pro Light";
+	font-family: 'Gotham Pro Light';
 	/* 300 */
-	src: url("../fonts/GothamPro-Light.woff") format("woff");
+	src: url('../fonts/GothamPro-Light.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
-	font-family: "Gotham Pro";
+	font-family: 'Gotham Pro';
 	/* 400 */
-	src: url("../fonts/GothamPro.woff") format("woff");
+	src: url('../fonts/GothamPro.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
-	font-family: "Gotham Pro Medium";
+	font-family: 'Gotham Pro Medium';
 	/* 500 */
-	src: url("../fonts/GothamPro-Medium.woff") format("woff");
+	src: url('../fonts/GothamPro-Medium.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -28,7 +28,7 @@ body {
 	margin: 0;
 	background-color: #292929;
 	color: #fff;
-	font-family: "Gotham Pro", sans-serif;
+	font-family: 'Gotham Pro', sans-serif;
 }
 img {
 	max-width: 100%;
@@ -43,21 +43,21 @@ img {
 	padding-top: 50px;
 }
 .header::after {
-	content: "";
+	content: '';
 	position: absolute;
 	width: 50px;
 	height: 35px;
 	top: 0;
 	right: 30%;
-	background: url("../img/petal-2.png") no-repeat;
+	background: url('../img/petal-2.png') no-repeat;
 }
 .header-description {
-	font-family: "Gotham Pro Light";
+	font-family: 'Gotham Pro Light';
 	font-size: 12px;
 	letter-spacing: 0.12px;
 }
 .text-color-red {
-	font-family: "Gotham Pro Medium";
+	font-family: 'Gotham Pro Medium';
 	color: #ff3469;
 }
 .header-contacts {
@@ -65,7 +65,7 @@ img {
 }
 .header-phone {
 	display: block;
-	font-family: "Gotham Pro Medium";
+	font-family: 'Gotham Pro Medium';
 	font-size: 20px;
 	text-decoration: none;
 	color: #fff;
@@ -95,7 +95,7 @@ img {
 	max-width: 652px;
 	margin: auto;
 	margin-bottom: 34px;
-	font-family: "Gotham Pro Medium";
+	font-family: 'Gotham Pro Medium';
 	font-size: 34px;
 	text-transform: uppercase;
 	letter-spacing: 0.34px;
@@ -103,29 +103,29 @@ img {
 .hero-description {
 	max-width: 590px;
 	margin: auto;
-	font-family: "Gotham Pro Light";
+	font-family: 'Gotham Pro Light';
 	font-size: 18px;
 	text-transform: uppercase;
 	letter-spacing: 0.18px;
 	line-height: 1.4;
 }
 .hero::before {
-	content: "";
+	content: '';
 	position: absolute;
 	width: 100px;
 	height: 160px;
 	top: 180px;
 	left: 5%;
-	background: url("../img/petal-1.png") no-repeat;
+	background: url('../img/petal-1.png') no-repeat;
 }
 .hero::after {
-	content: "";
+	content: '';
 	position: absolute;
 	width: 80px;
 	height: 65px;
 	top: 400px;
 	right: 5%;
-	background: url("../img/petal-3.png") no-repeat;
+	background: url('../img/petal-3.png') no-repeat;
 }
 .flowers-slider {
 	width: 100%;
@@ -156,7 +156,7 @@ img {
 }
 .hero-cta {
 	display: block;
-	font-family: "Gotham Pro Light";
+	font-family: 'Gotham Pro Light';
 	font-size: 19px;
 	text-transform: uppercase;
 }
@@ -200,12 +200,12 @@ img {
 	flex-shrink: 0;
 	border-radius: 50%;
 	overflow: hidden;
-	font-family: "Gotham Pro Light";
+	font-family: 'Gotham Pro Light';
 	font-size: 20px;
 	position: relative;
 }
 .review-image::before {
-	content: "";
+	content: '';
 	width: 100%;
 	height: 100%;
 	background-color: rgba(0, 0, 0, 0.5);
@@ -215,13 +215,13 @@ img {
 	position: relative;
 }
 .review-image-1 {
-	background: #000 url("../img/reviews/review-1.jpg") no-repeat center;
+	background: #000 url('../img/reviews/review-1.jpg') no-repeat center;
 }
 .review-image-2 {
-	background: #000 url("../img/reviews/review-2.jpg") no-repeat top;
+	background: #000 url('../img/reviews/review-2.jpg') no-repeat top;
 }
 .review-image-3 {
-	background: #000 url("../img/reviews/review-3.jpg") no-repeat top;
+	background: #000 url('../img/reviews/review-3.jpg') no-repeat top;
 }
 .review-name {
 	margin-bottom: 7px;
@@ -252,7 +252,7 @@ img {
 	margin: auto;
 	font-size: 20px;
 	text-transform: uppercase;
-	font-family: "Gotham Pro Medium";
+	font-family: 'Gotham Pro Medium';
 	line-height: 1.25;
 }
 .goods {
@@ -348,10 +348,10 @@ img {
 }
 .more::after {
 	display: inline-block;
-	content: "";
+	content: '';
 	width: 10px;
 	height: 10px;
-	background: url("../img/caret.svg") no-repeat center;
+	background: url('../img/caret.svg') no-repeat center;
 	margin-left: 15px;
 	vertical-align: middle;
 }
@@ -375,10 +375,10 @@ img {
 }
 .more-end::after {
 	display: inline-block;
-	content: "";
+	content: '';
 	width: 10px;
 	height: 10px;
-	background: url("../img/caret.svg") no-repeat center;
+	background: url('../img/caret.svg') no-repeat center;
 	margin-left: 15px;
 	vertical-align: middle;
 	transform: rotate(180deg);

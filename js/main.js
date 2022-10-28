@@ -5,22 +5,22 @@ $(document).ready(function () {
     loop: true,
     slidesPerView: 6,
     // If we need pagination
-  //   pagination: {
-  //     el: '.swiper-pagination',
-  //   },
+    //   pagination: {
+    //     el: '.swiper-pagination',
+    //   },
 
     // Navigation arrows
-  //   Подключаем стрелки
+    //   Подключаем стрелки
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
     // And if we need scrollbar
-  //   scrollbar: {
-  //     el: '.swiper-scrollbar',
-  //   },
-  // Responsive breakpoints
-  // настройки адаптивной версии
+    //   scrollbar: {
+    //     el: '.swiper-scrollbar',
+    //   },
+    // Responsive breakpoints
+    // настройки адаптивной версии
     breakpoints: {
       // when window width is >= 320px
       320: {
@@ -46,122 +46,122 @@ $(document).ready(function () {
     loop: true,
     slidesPerView: 1,
     // If we need pagination
-  //   pagination: {
-  //     el: '.swiper-pagination',
-  //   },
+    //   pagination: {
+    //     el: '.swiper-pagination',
+    //   },
 
     // Navigation arrows
-  //   Подключаем стрелки
+    //   Подключаем стрелки
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
     // And if we need scrollbar
-  //   scrollbar: {
-  //     el: '.swiper-scrollbar',
-  //   },
+    //   scrollbar: {
+    //     el: '.swiper-scrollbar',
+    //   },
   });
 
-  $("#review-1").on('click', function() {
+  $("#review-1").on('click', function () {
 
-  $.fancybox.open([
-    {
-      src  : './img/reviews/review-1.jpg',
-      opts : {
-        caption : 'Букет невесты',
-        thumb   : './img/reviews/review-1.jpg'
+    $.fancybox.open([
+      {
+        src: './img/reviews/review-1.jpg',
+        opts: {
+          caption: 'Букет невесты',
+          thumb: './img/reviews/review-1.jpg'
+        }
+      },
+      {
+        src: './img/reviews/review-2.jpg',
+        opts: {
+          caption: 'Букет "Весна"',
+          thumb: './img/reviews/review-2.jpg'
+        }
+      },
+      {
+        src: './img/reviews/review-3.jpg',
+        opts: {
+          caption: 'Букет на День Учителя',
+          thumb: './img/reviews/review-3.jpg'
+        }
       }
-    },
-    {
-      src  : './img/reviews/review-2.jpg',
-      opts : {
-        caption : 'Букет "Весна"',
-        thumb   : './img/reviews/review-2.jpg'
+    ], {
+      loop: true,
+      thumbs: {
+        autoStart: true
       }
-    },
-    {
-      src  : './img/reviews/review-3.jpg',
-      opts : {
-        caption : 'Букет на День Учителя',
-        thumb   : './img/reviews/review-3.jpg'
-      }
-    }
-  ], {
-    loop : true,
-    thumbs : {
-      autoStart : true
-    }
+    });
   });
-});
 
-$("#review-2").on('click', function() {
+  $("#review-2").on('click', function () {
 
-  $.fancybox.open([
-    {
-      src  : './img/reviews/review-2.jpg',
-      opts : {
-        caption : 'Букет "Весна"',
-        thumb   : './img/reviews/review-2.jpg'
+    $.fancybox.open([
+      {
+        src: './img/reviews/review-2.jpg',
+        opts: {
+          caption: 'Букет "Весна"',
+          thumb: './img/reviews/review-2.jpg'
+        }
+      },
+      {
+        src: './img/reviews/review-3.jpg',
+        opts: {
+          caption: 'Букет на День Учителя',
+          thumb: './img/reviews/review-3.jpg'
+        }
+      },
+      {
+        src: './img/reviews/review-1.jpg',
+        opts: {
+          caption: 'Букет невесты',
+          thumb: './img/reviews/review-1.jpg'
+        }
       }
-    },
-    {
-      src  : './img/reviews/review-3.jpg',
-      opts : {
-        caption : 'Букет на День Учителя',
-        thumb   : './img/reviews/review-3.jpg'
+    ], {
+      loop: true,
+      thumbs: {
+        autoStart: true
       }
-    },
-    {
-      src  : './img/reviews/review-1.jpg',
-      opts : {
-        caption : 'Букет невесты',
-        thumb   : './img/reviews/review-1.jpg'
-      }
-    }
-  ], {
-    loop : true,
-    thumbs : {
-      autoStart : true
-    }
+    });
   });
-});
 
-$("#review-3").on('click', function() {
+  $("#review-3").on('click', function () {
 
-  $.fancybox.open([
-    {
-      src  : './img/reviews/review-3.jpg',
-      opts : {
-        caption : 'Букет на День Учителя',
-        thumb   : './img/reviews/review-3.jpg'
+    $.fancybox.open([
+      {
+        src: './img/reviews/review-3.jpg',
+        opts: {
+          caption: 'Букет на День Учителя',
+          thumb: './img/reviews/review-3.jpg'
+        }
+      },
+      {
+        src: './img/reviews/review-1.jpg',
+        opts: {
+          caption: 'Букет невесты',
+          thumb: './img/reviews/review-1.jpg'
+        }
+      },
+      {
+        src: './img/reviews/review-2.jpg',
+        opts: {
+          caption: 'Букет "Весна"',
+          thumb: './img/reviews/review-2.jpg'
+        }
       }
-    },
-    {
-      src  : './img/reviews/review-1.jpg',
-      opts : {
-        caption : 'Букет невесты',
-        thumb   : './img/reviews/review-1.jpg'
+    ], {
+      loop: true,
+      thumbs: {
+        autoStart: true
       }
-    },
-    {
-      src  : './img/reviews/review-2.jpg',
-      opts : {
-        caption : 'Букет "Весна"',
-        thumb   : './img/reviews/review-2.jpg'
-      }
-    }
-  ], {
-    loop : true,
-    thumbs : {
-      autoStart : true
-    }
+    });
   });
-});
 
-// Показать ещё
-// $('.more').click(function() {
-//   $('show-more').fadeIn();
-//   $(this).fadeOut();
-// });
+  // Показать ещё
+  // $('.more').click(function() {
+  //   $('show-more').fadeIn();
+  //   $(this).fadeOut();
+  // });
 
 });
